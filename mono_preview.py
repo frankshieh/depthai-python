@@ -22,8 +22,8 @@ monoLeft.setBoardSocket(dai.CameraBoardSocket.LEFT)
 monoLeft.setResolution(dai.MonoCameraProperties.SensorResolution.THE_400_P)
 monoRight.setBoardSocket(dai.CameraBoardSocket.RIGHT)
 monoRight.setResolution(dai.MonoCameraProperties.SensorResolution.THE_400_P)
-monoLeft.setFps(120)
-monoRight.setFps(120)
+monoLeft.setFps(200)
+monoRight.setFps(200)
 
 # Linking
 monoRight.out.link(xoutRight.input)
